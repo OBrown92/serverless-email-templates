@@ -1,0 +1,28 @@
+{
+  "name": "serverless-email-templates",
+  "version": "2.2.0",
+  "description": "A Node.js starter for Serverless Framework with ES6 and TypeScript support",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnomalyInnovations/serverless-nodejs-starter.git"
+  },
+  "devDependencies": {
+    "serverless-bundle": "2.0.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.3.3",
+    "serverless-webpack": "^5.3.3"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "email-templates": "^7.1.0",
+    "nodemailer": "^6.4.11",
+    "pug": "^3.0.0",
+    "serverless-babel-plugin": "github:headnote/serverless-babel-plugin"
+  }
+}
